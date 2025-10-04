@@ -37,6 +37,7 @@ add_executable(menu_system_draft
     src/ui/ui_core.c
     src/ui/ui_editors.c
     src/modules/mod_aprs.c
+    src/modules/mod_fm.c
 )
 target_link_libraries(menu_system_draft PRIVATE project_warnings link_gc)
 target_include_directories(menu_system_draft
